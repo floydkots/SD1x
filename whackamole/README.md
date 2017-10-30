@@ -1,17 +1,17 @@
-# unit_1.WhackAMole
+# WhackAMole
 A Java simulation of the classic [whack-a-mole](https://media.giphy.com/media/MVUyVpyjakkRW/giphy.gif) game.
 
 It was homework on edx, an introduction to software development course, based on Java. 
 
 ## Homework description
 
-Create a class called unit_1.WhackAMole.
+Create a class called WhackAMole.
 
 It contains three integer instance variables called score, molesLeft, and attemptsLeft. Make one more instance variable called moleGrid which is a 2-dimensional array of chars.
 
 We will also have you create the following methods in this class.
 
-**unit_1.WhackAMole(int numAttempts, int gridDimension)** - Constructor for the game, specifies total number of whacks allowed, and the grid dimension. After reading through the assignment, make sure to initialize the moleGrid with the appropriate character.
+**WhackAMole(int numAttempts, int gridDimension)** - Constructor for the game, specifies total number of whacks allowed, and the grid dimension. After reading through the assignment, make sure to initialize the moleGrid with the appropriate character.
 
 **boolean place(int x, int y)** – Given a location, place a mole at that location. Return true if you can. (Also update number of moles left.)            
 

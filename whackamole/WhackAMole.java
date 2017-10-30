@@ -1,3 +1,5 @@
+package Homeworks.SD1x.whackamole;
+
 import java.util.Random;
 import java.util.Scanner;
 import java.util.Arrays;
